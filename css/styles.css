@@ -1,0 +1,292 @@
+
+/* general rules */
+
+body
+{
+  font-family: Montserrat;
+}
+
+h1
+{
+
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2
+{
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3
+{
+    font-weight: bold;
+}
+
+p
+{
+  font-weight: 500;
+  color: #8f8f8f;
+  font-size: 1rem;
+}
+
+
+/* title section */
+
+#title .container-fluid
+{
+    background-color: #85144b;
+    color: #fff;
+    padding: 4% 15%;
+    padding-bottom: 7%;
+}
+
+/* navigation-bar */
+.navbar
+{
+  padding-bottom: 1.5rem ;
+  margin-bottom: 4rem;
+    background-color: #85144b/*#ff4c68*/;
+   width:100%;
+}
+
+.navbar-brand
+{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item
+{
+  padding: 0 18px;
+}
+
+.nav-link
+{
+  font-size: 1.3rem;
+  font-weight: 100;
+}
+
+/* download buttons */
+
+.download-button
+{
+  margin: 5% 3% 5% 0;
+}
+
+.title-img
+{
+  width: 60%;
+  transform: rotate(25deg);
+  right:25%;
+  position:absolute;
+}
+
+
+/* features section */
+
+#features
+{
+  padding: 7% 3%;
+  width: 100%;
+  position:relative;
+    background: #ffe6f0;
+  text-align: center;
+}
+
+ .features                      /* container-fluid */
+{
+  width: 100%;
+  padding: 0;
+}
+
+.ft-row                            /* row wrapper */
+{
+  width:100%;
+}
+
+.ft-col                            /*col-lg-4 class*/
+{
+  text-align: center;
+  padding: 5% 0 4% 0;
+}
+
+.ft-icon                            /* font awesome icons */
+{
+   color:#ff0066;
+   margin-bottom: 1rem ;
+}
+
+.ft-icon:hover
+{
+  color:#e6005c;
+  cursor: pointer;
+}
+
+
+
+
+/* testimonials-section */
+
+#testimonials
+{
+  text-align: center;
+  background-color: #85144b;
+  color: #fff;
+}
+
+#testimonials em
+{
+  font-size: 1.2rem;
+}
+
+.testimonial-img
+{
+    width:16%;
+    border-radius: 100%;
+    margin: 3%;
+    margin-top: 3%;
+}
+
+.carousel-item                                /* padding within carousel to space out arrow controls */
+{
+  padding: 12% 16% 4% 16%;
+}
+
+
+
+/* press */
+
+#press
+{
+    background-color: #85144b;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo
+{
+  width: 17%;
+  margin: 3% 2.5%;
+  margin-bottom: 4%;
+
+}
+
+
+
+/* pricing */
+
+#pricing
+{
+    padding: 8% 10%;
+    text-align: center;
+    background-color: #ffe6f0;
+}
+
+
+
+.dog-img,.dog-img1
+{
+    width:25%;
+}
+
+.pricing-col
+{
+  padding: 3% 2%;
+}
+
+.card-1,.card-2,.card-3
+{
+  height: 100%;
+  background-color:#ffcce0;
+  border: 1px solid;
+}
+
+.card-header
+{
+  border-bottom: 1px solid;
+}
+
+.card-1 .btn,.card-2 .btn
+{
+  margin-top:17%;
+}
+
+
+/* download section */
+
+#cta
+{
+  padding: 9% 10%;
+
+  text-align: center;
+  background-color: #85144b;
+}
+
+#cta h3
+{
+  font-size: 4rem;
+  margin: 6% 3%;
+  color: #fff;
+}
+
+#cta .btn
+{
+  margin-right:2%;
+}
+
+
+
+/* footer */
+
+#footer
+{
+    padding:4%;
+    text-align: center;
+    background-color: #ffe6f0;
+}
+
+.footer-icon                    /*social media icons*/
+{
+  margin: 1%;
+  margin-bottom: 2%;
+  font-size: 1.2rem;
+  color: #000;
+}
+
+.footer-icon:hover,.social-media:hover
+{
+  color: #4d4d4d;
+  font-size: 1.5rem;
+}
+
+#footer div,.flaticon
+{
+  color: #8f8f8f;
+}
+
+.flaticon:hover
+{
+  color :#4d4d4d;
+  font-weight: bold;
+}
+
+
+/* media queries */
+
+@media (max-width:1028px)
+{
+  .title-img
+  {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title
+  {
+    text-align: center;
+  }
+}
