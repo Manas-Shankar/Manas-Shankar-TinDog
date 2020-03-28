@@ -29,7 +29,7 @@ h3
 p
 {
   font-weight: 500;
-  color: #8f8f8f;
+  color:  #333333;
   font-size: 1rem;
 }
 
@@ -265,12 +265,12 @@ p
 
 #footer div,.flaticon
 {
-  color: #8f8f8f;
+  color: #333333;
 }
 
 .flaticon:hover
 {
-  color :#4d4d4d;
+  color :#0d0d0d;
   font-weight: bold;
 }
 
